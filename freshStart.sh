@@ -28,11 +28,13 @@ do
             echo "Good choice!"
             echo "First update"
             sleep 2
-            sudo apt-get update -y -q
+            echo "sudo apt-get update -y -q"
+            echo "not actually running anything, this is just an exercise!"
             echo "Now installing zsh"
             sleep 2
-            sudo apt-get install zsh
-            
+            echo "sudo apt-get install zsh"
+            echo "again, not installing zsh, just and exercise"
+     
         elif [ $rel = "ID_LIKE=arch" ]
         then
             echo "Coming soon(tm)!"
