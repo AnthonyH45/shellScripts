@@ -21,7 +21,7 @@ n=1
 n=$(( n + 1 ))
 
 if [ condition ]; then
-    echo "there must be a space before and after the [ ]"
+    echo "there must be a space before the [ ]"
 fi
 
 if [ $n -lt 0 ] || [ $n -gt 100 ]; then
